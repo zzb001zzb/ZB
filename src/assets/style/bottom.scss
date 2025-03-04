@@ -1,0 +1,163 @@
+@media only screen and (min-width:1200px) {
+
+
+.bottom{
+    background-image: url('/src/assets/img/2.jpg');
+    background-repeat:no-repeat;
+	background-size:100% 100%;
+    // background-color: red;
+    margin-top: 20px;
+    height: 230px;
+    padding-top: 30px;
+    .bottom_div2{
+        display: none;
+    }
+    .bottom_div1{
+        width: 86%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        ul{
+            width: 22%;
+            // border: 1px solid;
+            padding: 0;
+            li{
+                list-style: none;
+                font-size: 14px;
+                display: flex;
+                margin-top: 6px;
+                &:nth-child(1){
+                    font-size: 18px;
+                }
+                &:nth-child(4) span{
+                    letter-spacing: 8px;
+                }
+                &:nth-child(5) span{
+                    letter-spacing: 8px;
+                }
+                &:nth-child(6) span{
+                    letter-spacing: 8px;
+                }
+                span{
+                    display: block;
+                    width: 60px;
+                    text-align: justify; /* 使文字两侧对齐 */
+                }
+            }
+        }
+        img{
+            width: 40%;
+            margin-left: -14%;
+        }
+        div{
+            width: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 30px;
+                height: 30px;
+
+            }
+        }
+    }
+    p{
+        letter-spacing:2px;
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+}
+}
+@media only screen and (max-width:1200px) {
+    .bottom{
+        background-image: url('/src/assets/img/2.jpg');
+        background-repeat:no-repeat;
+        background-size:100% 100%;
+        // background-color: red;
+        margin-top: 20px;
+        // height: 230px;
+        padding-top: 30px;
+        .bottom_div1{
+            display: none;
+        }
+        .bottom_div2{
+            width: 94%;
+            margin: 0 auto;
+            .img1{
+                width: 70%;
+
+            }
+            .flex1{
+                width: 90%;
+                margin: 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                div{
+                    text-align: center;
+                    img{
+                        width: 100%;
+                        height: 60px;
+
+                    }
+                    p{
+                        font-size: 6px;
+                        color: #ccc;
+                        margin-top: -2px;
+                    }
+                }
+            }
+            ul{
+                width: 70%;
+                // border: 1px solid;
+                padding: 0;
+                color: white;
+                li{
+                    list-style: none;
+                    font-size: 10px;
+                    display: flex;
+                    margin-top: 6px;
+                    &:nth-child(1){
+                        font-size: 14px;
+                    }
+                    &:nth-child(4) span{
+                        letter-spacing: 8px;
+                    }
+                    &:nth-child(5) span{
+                        letter-spacing: 8px;
+                    }
+                    &:nth-child(6) span{
+                        letter-spacing: 4px;
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 2;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    span{
+                        display: block;
+                        width: 52px;
+                        text-align: justify; /* 使文字两侧对齐 */
+                        display: -webkit-box;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 1;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+            }
+        }
+        p{
+            letter-spacing:2px;
+            text-align: center;
+            color: white;
+            font-size: 12px;
+            margin-top: 10px;
+            padding-bottom: 20px;
+        }
+    }
+}
